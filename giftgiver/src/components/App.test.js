@@ -17,3 +17,9 @@ it('adds a new gift to the state when clicking add gift button', () => {
   app.find('.btn-add').simulate('click');
   expect(app.state().gifts).toEqual([{id: 1}]);
 });
+
+it('adds a new gift to the list', () => {
+  app.find('.btn-add').simulate('click');
+
+  expect(app.find('.gift-list').children().length).toEqual(2); // test pollution
+});
