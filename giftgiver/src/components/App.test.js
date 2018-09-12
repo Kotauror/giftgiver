@@ -27,7 +27,7 @@ describe('App', () => {
       expect(app.state().gifts).toEqual([{id: 1}]);
     });
 
-    it('adds a new gift to the list', () => {
+    it('adds a new gift to the rendered list', () => {
       expect(app.find('.gift-list').children().length).toEqual(1);
     });
   })
