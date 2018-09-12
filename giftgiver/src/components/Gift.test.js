@@ -13,7 +13,7 @@ describe('Gift', () => {
     expect(gift.state()).toEqual({person: "", present: ""});
   });
 
-  describe('when typing  into person input', () => {
+  describe('when typing into person input', () => {
     const person = "Uncle"
 
     beforeEach(() => {
@@ -23,6 +23,19 @@ describe('Gift', () => {
 
     it('updates the person in state', () => {
       expect(gift.state().person).toEqual(person);
+    });
+  });
+
+  describe('when typing into present input', () => {
+    const present = "Cat"
+
+    beforeEach(() => {
+      gift.find('.input-present').simulate('change', { target: { value: present}});
+      // find .input-person field and type Uncle into it.
+    });
+
+    it('updates the present in state', () => {
+      expect(gift.state().present).toEqual(present);
     });
   });
 

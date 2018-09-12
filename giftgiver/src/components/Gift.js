@@ -20,7 +20,11 @@ class Gift extends Component {
               className='input-person'
               onChange={event => this.setState({ person: event.target.value})}
             />
-            // bootstrap for input
+            <FormControl
+              className='input-present'
+              onChange={event => this.setState({ present: event.target.value})}
+            />
+            // formControl - bootstrap for input
           </FormGroup>
         </Form>
       </div>

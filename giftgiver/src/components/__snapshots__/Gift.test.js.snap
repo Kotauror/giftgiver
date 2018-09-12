@@ -38,7 +38,13 @@ ShallowWrapper {
                         componentClass="input"
                         onChange={[Function]}
                 />
-                // bootstrap for input
+                <FormControl
+                        bsClass="form-control"
+                        className="input-present"
+                        componentClass="input"
+                        onChange={[Function]}
+                />
+                // formControl - bootstrap for input
         </FormGroup>
 </Form>,
     },
@@ -64,7 +70,13 @@ ShallowWrapper {
                     componentClass="input"
                     onChange={[Function]}
           />
-          // bootstrap for input
+          <FormControl
+                    bsClass="form-control"
+                    className="input-present"
+                    componentClass="input"
+                    onChange={[Function]}
+          />
+          // formControl - bootstrap for input
 </FormGroup>,
         "componentClass": "form",
         "horizontal": false,
@@ -90,7 +102,13 @@ ShallowWrapper {
               componentClass="input"
               onChange={[Function]}
 />,
-            "// bootstrap for input",
+            <FormControl
+              bsClass="form-control"
+              className="input-present"
+              componentClass="input"
+              onChange={[Function]}
+/>,
+            "// formControl - bootstrap for input",
           ],
         },
         "ref": null,
@@ -122,7 +140,21 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
-          "// bootstrap for input",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-control",
+              "className": "input-present",
+              "componentClass": "input",
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "// formControl - bootstrap for input",
         ],
         "type": [Function],
       },
@@ -157,7 +189,13 @@ ShallowWrapper {
                               componentClass="input"
                               onChange={[Function]}
                     />
-                    // bootstrap for input
+                    <FormControl
+                              bsClass="form-control"
+                              className="input-present"
+                              componentClass="input"
+                              onChange={[Function]}
+                    />
+                    // formControl - bootstrap for input
           </FormGroup>
 </Form>,
       },
@@ -183,7 +221,13 @@ ShallowWrapper {
                         componentClass="input"
                         onChange={[Function]}
             />
-            // bootstrap for input
+            <FormControl
+                        bsClass="form-control"
+                        className="input-present"
+                        componentClass="input"
+                        onChange={[Function]}
+            />
+            // formControl - bootstrap for input
 </FormGroup>,
           "componentClass": "form",
           "horizontal": false,
@@ -209,7 +253,13 @@ ShallowWrapper {
                 componentClass="input"
                 onChange={[Function]}
 />,
-              "// bootstrap for input",
+              <FormControl
+                bsClass="form-control"
+                className="input-present"
+                componentClass="input"
+                onChange={[Function]}
+/>,
+              "// formControl - bootstrap for input",
             ],
           },
           "ref": null,
@@ -241,7 +291,21 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
-            "// bootstrap for input",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "form-control",
+                "className": "input-present",
+                "componentClass": "input",
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "// formControl - bootstrap for input",
           ],
           "type": [Function],
         },
